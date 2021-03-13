@@ -27,7 +27,6 @@ app.get('/reserve', (req,res) => res.sendFile(path.join(__dirname,"reserve.html"
 app.get('/api/wailist', (req, res) => res.json(waitlist));
 
 app.get('/api/tables', (req, res) => res.json(tables));
-
 // display the tables / app.post will be below here with the routes
 
 
