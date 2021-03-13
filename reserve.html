@@ -39,14 +39,14 @@
     $(".submit").click(function(event){
         event.preventDefault();
 
-        var newReservation = {
+        var newReservation = 
+        {
             name: $("#name").val().trim(),
             phoneNumber: $("#phoneNumber").val().trim(),
             customerEmail: $("#email").val().trim(),
             customerID: $("#uniqueID").val().trim()
         };
 
-        console.log(newReservation);
     });
 </script>
 </body>
